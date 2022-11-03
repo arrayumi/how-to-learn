@@ -137,6 +137,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -146,6 +147,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 1;
 }
 
 .table {
@@ -198,7 +200,7 @@
 
 .feynman__subtitle {
   text-align: center;
-  margin: 70 auto 0;
+  margin: 70px auto 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -239,16 +241,17 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 20px;
   margin-top: 80px;
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   width: 877px;
   height: 877px;
   right: -210px;
   top: 0;
+  background-size: contain;
 }
 
 .footer {
